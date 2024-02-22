@@ -12,7 +12,7 @@ class Github {
         await fetch(
             `https://api.github.com/users/${user}`,
             {
-                headers: { Authorization: 'token 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'}
+                headers: { Authorization: 'token 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'}
             }
         );
 
@@ -20,7 +20,7 @@ class Github {
         await fetch(
             `https://api.github.com/users/${user}/repos?per_page=${this.repos_count}&sort=${this.repos_sort}`,
             {
-                headers: { Authorization: 'token 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'}
+                headers: { Authorization: 'token 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'}
             }
         );
 
